@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <style>
+   .aa{background-image:url(7.jpg);
+            background-repeat:no-repeat;
+background-size:100%;
+}
+</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+</head>
+<body class="aa"> 
+ <form  action="sign.php" method ="post">
+  <center>
+   <h2>Welcome to International Bank :)</h2>
+   <br>
+   <div style="width: 300px">
+       <h4> <label for="username" style="color:white">Username: </label></h4>
+   <input class="form-control" type="text" name="username" placeholder="Enter the Username">
+   <br>
+   <br>
+  <h4> <label for="password" style="color:white">Password: </label></h4>
+   <input class="form-control" type="password" name="password" placeholder="Enter the Password">
+   </div>
+   <br>
+   <br>
+   <div>
+   <button class="btn" name ="submit">Login!</button>
+   <button class="btn btn-primary" name ="register" formaction="signup.html">New user,Sign Up!</button><br><br>
+       <h3><p> <a href="mainpage.html">Back</a></p><h3>
+      </div>
+    </center>
+    </form>
+</body>
+</html>

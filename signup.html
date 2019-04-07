@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+   .bbb{background-image:url(j.jpg);
+            background-repeat:no-repeat;
+background-size:cover;
+}
+</style>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+</head>
+<body class="bbb">
+<center>
+<h1 style="color:white">Welcome to International Bank :)</h1><br>
+<form action="register.php" method="post"  style="width: 250px;">
+    <h4>
+<label for="id" style="color:red">Id*</lable></h4>
+<input type="text" name="id" required class="form-control">
+<br><br>
+<h4><label for="Username" style="color:red">Username*</label></h4>
+<input type="text" name="username" required class="form-control">
+<br><br>
+<h4><label for="Password" style="color:red">Password*</label></h4>
+<input type="password" name="password" required class="form-control">
+<br><br>
+   <h4> <label for="Name" style="color:red">Name*</label></h4>
+<input type="text" name="name" required class="form-control">
+<br><br>
+<h4><label for="Gender" style="color:red">Gender* </label></h4>
+<input type="radio" name="gender" value="male" required > Male
+<input type="radio" name="gender" value="female" required > Female
+<input type="radio" name="gender" value="other" required > Other
+<br><br>
+<h4><label for="Age" style="color:red">Age*</label></h4>
+<input type="text" name="age" required class="form-control">
+<br><br>
+<h4><label for="mail Id" style="color:red">Mail Id*</label></h4>
+<input type="email" name="mail" required class="form-control" >
+<br><br>
+<h4><label for="Country" style="color:red">Country*</label> </h4>
+<select name="userCountry" class="form-control" style="color:red">  
+<option>India</option>  
+<option>Pakistan</option>  
+<option>other</option>  
+</select>  
+<br/><br/>
+<h4><label for="Address" style="color:red">Address*</label></h4>
+<input type="text" name="Address" required class="form-control">
+<br><br>
+<h4><label for="contact" style="color:red">Contact No*</label></h4>
+<input type="text" name="contact" required class="form-control">
+        <br><br>
+<input type="submit" name="register" value="Register" class="btn btn-primary">
+<input type="Reset" class="btn btn-primary"><br>
+<div class="btn btn-link">
+    <h3><p> <a href="mainpage.html">Back</a></p><h3>
+</form>
+</center>
+</body>
+</html>
